@@ -25,11 +25,11 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
 # Bootstrap (Sass)
 gem 'bootstrap-sass'
+
+# Authentication
+gem 'devise'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
