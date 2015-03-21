@@ -7,6 +7,9 @@
 # Ignore rbenv file.
 /.ruby-version
 
+# Ignore direnv file.
+/.envrc
+
 # Ignore bundler config.
 /.bundle
 /vendor/bundle
