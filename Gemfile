@@ -65,7 +65,7 @@ group :development, :test do
   gem 'database_cleaner'
 
   # Use Capistrano for deployment
-  # gem 'capistrano-rails', group: :development
+  # gem 'capistrano-rails'
 end
 
 group :production do
