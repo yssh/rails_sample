@@ -39,6 +39,9 @@ group :development, :test do
   gem 'spring'
   gem 'spring-commands-rspec'
 
+  # Bullet
+  gem 'bullet'
+
   # Pry
   gem 'pry-rails'
   gem 'pry-doc'
