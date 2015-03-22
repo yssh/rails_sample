@@ -45,6 +45,10 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
 
+  # Hirb
+  gem 'hirb'
+  gem 'hirb-unicode'
+
   # Better Errors
   gem 'better_errors'
   gem 'binding_of_caller'
