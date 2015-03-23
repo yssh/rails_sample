@@ -32,6 +32,9 @@ gem 'bootstrap-sass'
 # Authentication
 gem 'devise'
 
+# SimpleForm
+gem 'simple_form'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
