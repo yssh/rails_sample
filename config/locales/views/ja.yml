@@ -1,0 +1,9 @@
+ja:
+  layouts:
+    header:
+      signup: アカウント作成
+      login: ログイン
+      logout: ログアウト
+      account: アカウント
+      profile: アカウント情報
+      help: ヘルプ
