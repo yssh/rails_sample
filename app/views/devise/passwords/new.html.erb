@@ -1,17 +1,15 @@
 <h2><%= t('.forgot_your_password') %></h2>
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: {method: :post, class: "form-horizontal"}) do |f| %>
+<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: {method: :post, class: "form-horizontal"}) do |f| %>
   <%= devise_error_messages! %>
 
-  <div class="form-group">
-    <div class="col-md-offset-3 col-md-6">
-      <%= f.label :email %>
-      <%= f.email_field :email, autofocus: true, class: "form-control" %>
-    </div>
-  </div>
+  <%= f.input(:email,
+              autofocus: true,
+              wrapper: :horizontal_form,
+              input_wrapper_html: {class: "col-md-6"}) %>
 
   <div class="form-group">
-    <div class="col-md-offset-3 col-md-3">
+    <div class="col-md-offset-3 col-md-2">
       <%= f.submit t('.reset_password'), class: 'btn btn-primary form-control' %>
     </div>
   </div>
