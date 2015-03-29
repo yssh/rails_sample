@@ -22,6 +22,7 @@ gem 'active_decorator'
 # Views
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'kaminari'
 
 # Authentication
 gem 'devise'
