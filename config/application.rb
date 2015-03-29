@@ -33,7 +33,7 @@ module RailsSample
     config.active_record.raise_in_transactional_callbacks = true
 
     # Set generator
-    config.generates do |g|
+    config.generators do |g|
       g.javascripts false
       g.stylesheets false
       g.helper false
