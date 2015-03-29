@@ -6,12 +6,12 @@ ja:
         remember_me: ログイン状態を保持する
     registrations:
       new:
-        signup: アカウント作成
+        signup: ユーザ登録
+        characters_minimum: "（%{minimum_length}文字以上）"
       edit:
-        edit_profile: アカウント情報
+        edit_profile: プロフィール変更
+        leave_blank: 変更しない場合は入力するは必要ありません
         update: 更新
-        cancel_my_account: アカウント削除
-        back: もどる
     passwords:
       new:
         forgot_your_password: パスワードの再設定

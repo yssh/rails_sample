@@ -9,7 +9,7 @@
 
   <%= f.input(:password,
               autocomplete: "off",
-              hint: "#{@minimum_password_length} characters minimum",
+              hint: t('.characters_minimum', {minimum_length: @minimum_password_length}),
               wrapper: :horizontal_form,
               input_wrapper_html: {class: "col-md-6"}) %>
 

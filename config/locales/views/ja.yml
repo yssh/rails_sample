@@ -1,9 +1,9 @@
 ja:
   layouts:
     header:
-      signup: アカウント作成
+      signup: ユーザ登録
       login: ログイン
       logout: ログアウト
-      account: アカウント
-      profile: アカウント情報
+      account: ユーザ
+      profile: プロフィール変更
       help: ヘルプ
