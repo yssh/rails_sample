@@ -15,6 +15,7 @@ gem 'jquery-rails'
 gem 'jquery-turbolinks'
 
 # Helpers
+gem 'active_decorator'
 
 # Models
 
