@@ -13,12 +13,19 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
-      <% flash.each do |key, value| %>
-        <div class="alert alert-<%= key == 'notice' ? 'success' : 'error' -%>">
-          <a class="close" data-dismiss="alert">x</a>
-          <%= value -%>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <% flash.each do |key, value| %>
+            <div class="alert alert-<%= key == 'notice' ? 'success' : 'danger' -%> alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span>
+                <span class="sr-only">close</span>
+              </button>
+              <%= value -%>
+            </div>
+          <% end %>
         </div>
-      <% end %>
+      </div>
       <%= yield %>
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>
