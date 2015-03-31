@@ -16,6 +16,9 @@ ja:
       new:
         forgot_your_password: パスワードの再設定
         reset_password: パスワードのリセット
+      edit:
+        change_your_password: パスワードの変更
+        new_password: 新しいパスワード
     shared:
       links:
         login: ログイン
