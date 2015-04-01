@@ -27,6 +27,7 @@ gem 'kaminari'
 
 # Authentication
 gem 'devise'
+gem 'cancancan'
 
 group :development do
   # Debug
