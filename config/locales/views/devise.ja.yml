@@ -2,25 +2,41 @@ ja:
   devise:
     sessions:
       new:
-        login: ログイン
-        remember_me: ログイン状態を保持する
+        login: "ログイン"
+        remember_me: "ログイン状態を保持する"
     registrations:
       new:
-        signup: ユーザ登録
+        signup: "ユーザ登録"
         characters_minimum: "（%{minimum_length}文字以上）"
       edit:
-        edit_profile: プロフィール変更
-        leave_blank: 変更しない場合は入力するは必要ありません
-        update: 更新
+        edit_profile: "プロフィール変更"
+        leave_blank: "変更しない場合は入力するは必要ありません"
+        update: "更新"
     passwords:
       new:
-        forgot_your_password: パスワードの再設定
-        reset_password: パスワードのリセット
+        forgot_your_password: "パスワードの再設定"
+        reset_password: "パスワードのリセット"
       edit:
-        change_your_password: パスワードの変更
-        new_password: 新しいパスワード
+        change_your_password: "パスワードの変更"
+        new_password: "新しいパスワード"
+    mailer:
+      confirmation_instructions:
+        title: "ようこそ"
+        confirm_explanation: "アカウント確認メールを以下のリンクから送信できます:"
+        confirm_link: "アカウントを確認する"
+      reset_password_instructions:
+        title: "こんにちは"
+        reset_password_explanation: "パスワードリセットのリクエストが行われました。以下のリンクをクリックしてパスワードを変更できます。"
+        reset_password_link: "パスワードを変更する"
+        please_ignore: "もしあなたがパスワードリセットをリクエストしていない場合は、このメールを無視して下さい。"
+        wont_change: "上記リンクをクリックして新しいパスワードを作成しない限り、パスワードは変更されません。"
+      unlock_instructions:
+        title: "こんにちは"
+        locked_explanation: "ログイン失敗の回数が多すぎたために、あなたのアカウントはロックされました。"
+        unlock_explanation: "あなたのアカウントのロックを解除するためには、以下のリンクをクリックして下さい:"
+        unlock_link: "アカウントのロックを解除する"
     shared:
       links:
-        login: ログイン
-        signup: ユーザ登録する
-        forgot_your_password: パスワードを忘れた場合
+        login: "ログイン"
+        signup: "ユーザ登録する"
+        forgot_your_password: "パスワードを忘れた場合"
