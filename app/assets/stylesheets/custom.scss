@@ -1,21 +1,3 @@
-// for Glyphicons
-@import "bootstrap-sprockets";
-
-// first import cerulean variables
-@import "bootswatch/cerulean/variables";
-
-// then bootstrap itself
-@import "bootstrap";
-
-// bootstrap body padding for fixed navbar
-body {
-  padding-top: 60px;
-}
-
-// finally bootswatch style itself
-@import "bootswatch/cerulean/bootswatch";
-
-
 /* mixins, variables, etc */
 
 $gray-medium-light: #eaeaea;

@@ -10,6 +10,24 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+
+// for Glyphicons
+@import "bootstrap-sprockets";
+
+// first import cerulean variables
+@import "bootswatch/cerulean/variables";
+
+// then bootstrap itself
+@import "bootstrap";
+
+// bootstrap body padding for fixed navbar
+body {
+  padding-top: 60px;
+}
+
+// finally bootswatch style itself
+@import "bootswatch/cerulean/bootswatch";
+
+// custom styles
+@import "custom";
