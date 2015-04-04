@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.2.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'turbolinks'
+gem 'rails_config'
 
 # Assets
 gem 'jbuilder', '~> 2.0'
