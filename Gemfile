@@ -29,6 +29,9 @@ gem 'kaminari'
 gem 'devise'
 gem 'cancancan'
 
+# Administration
+gem 'activeadmin', github: 'activeadmin'
+
 group :development do
   # Debug
   gem 'web-console', '~> 2.0'
